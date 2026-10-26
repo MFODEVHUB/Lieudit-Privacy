@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — Lieudit / Privacy Policy — Lieudit</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.7;
+    }
+    header {
+      background: #1f6f6b;
+      color: #fff;
+      padding: 2.5rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p  { margin-top: .4rem; opacity: .85; font-size: .95rem; }
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: .5rem;
+      margin-top: 1.2rem;
+    }
+    .lang-switch a, .lang-switch span {
+      font-weight: 600;
+      font-size: .85rem;
+      padding: .4rem 1rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, .6);
+      text-decoration: none;
+      color: #fff;
+    }
+    .lang-switch span.current {
+      background: #fff;
+      color: #1f6f6b;
+      border-color: #fff;
+    }
+    main {
+      max-width: 760px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem 4rem;
+    }
+    section { margin-bottom: 2.2rem; }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #1f6f6b;
+      margin-bottom: .6rem;
+      padding-bottom: .3rem;
+      border-bottom: 2px solid #cfe3e1;
+    }
+    p  { margin-bottom: .8rem; }
+    ul { margin: .4rem 0 .8rem 1.4rem; }
+    li { margin-bottom: .3rem; }
+    a  { color: #1f6f6b; }
+    footer {
+      text-align: center;
+      font-size: .8rem;
+      color: #868e96;
+      padding: 1.5rem;
+      border-top: 1px solid #dee2e6;
+    }
+
+    /* Bascule de langue 100% CSS (aucun JavaScript) : chaque langue est un bloc ciblé
+       par ancre d'URL (#en). Par défaut (aucune ancre), le français s'affiche. Robuste
+       partout, y compris dans les WebView/navigateurs embarqués qui désactivent le JS. */
+    #en { display: none; }
+    #en:target { display: block; }
+    #en:target ~ #fr { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="en">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Lieudit app &mdash; last updated: October 26, 2026</p>
+    <div class="lang-switch">
+      <a href="#fr">Français</a>
+      <span class="current">English</span>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>1. Introduction</h2>
+      <p>Lieudit is a personal place notebook for Android published by an independent developer (hereafter "we" or "the publisher"). This policy describes what data is used, how, and what rights you have. Lieudit is intended for users aged 18 and over.</p>
+      <p>Contact: <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a></p>
+    </section>
+    <section>
+      <h2>2. Data stored locally on your device</h2>
+      <p>Lieudit keeps your data <strong>on your device</strong>. It is not sent to our servers (the optional Google Drive sync is described in section 5). It includes:</p>
+      <ul>
+        <li>Your places: name, address, coordinates, status, rating, icon, personal notes, and the link to the Google Maps page</li>
+        <li>Your tags and their colours</li>
+        <li>Your settings (map style, pin size, sorting, filters)</li>
+      </ul>
+      <p>"Delete all data" in Settings permanently erases it. Uninstalling the app also deletes it. The place database is excluded from Android's automatic cloud backup and from device-to-device transfer; only some settings may be included.</p>
+    </section>
+    <section>
+      <h2>3. Location</h2>
+      <p>If you allow it, Lieudit uses your <strong>approximate and precise location</strong>, <strong>only while the app is in use</strong>, to show your position on the map, sort places by distance and compute directions. Your position is processed on the device and is never sent to our servers or stored by us. Refusing the permission does not prevent the app from working. Directions and the map are handled by Google Maps (section 4).</p>
+    </section>
+    <section>
+      <h2>4. Google Maps and Google Places</h2>
+      <p>The map uses the <strong>Google Maps SDK</strong> and the place search uses <strong>Google Places</strong>. To display the map and answer a search, Google receives the technical data of the request (IP address, device and app information, the text you type or the area displayed). Places you add from a search keep the identifiers and details returned by Google. This data is processed by Google under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>. Opening a place or directions launches Google Maps, which has its own policy.</p>
+    </section>
+    <section>
+      <h2>5. Google Drive sync (optional)</h2>
+      <p>If you enable it, Lieudit signs you in with your Google account (<strong>Google Identity Services</strong>) and stores a backup file in the <strong>hidden application-data folder</strong> of your Google Drive (<code>drive.appdata</code> scope only). The file contains your places, notes, ratings and tags. It is kept by Google in your own account, is not visible in your Drive and is inaccessible to us. Lieudit cannot read any other file of your Drive. You can disconnect at any time; "on this device and in Drive" in Settings also deletes the file from Drive. You can also manage it from your <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">Google Account</a>.</p>
+    </section>
+    <section>
+      <h2>6. Import and export</h2>
+      <p>Import (Mapstr, Google Takeout, JSON backup) and export are done through files you choose, on your device. Lieudit only reads the file you select, and the exported file is saved where you decide. Once exported, its protection is your responsibility.</p>
+    </section>
+    <section>
+      <h2>7. Data we do not collect</h2>
+      <p>Lieudit <strong>contains no advertising, no in-app purchase, no analytics, no crash-reporting service and no tracker</strong>. It has no user account of its own and does not collect your name, email address, contacts, photos, or payment details. The only data that can leave your device is described in sections 3 to 5, and goes to Google, not to us.</p>
+    </section>
+    <section>
+      <h2>8. Android permissions used</h2>
+      <ul>
+        <li><strong>INTERNET</strong>: map, place search and optional Drive sync. Saved places can be consulted offline.</li>
+        <li><strong>ACCESS_COARSE_LOCATION</strong> and <strong>ACCESS_FINE_LOCATION</strong>: see section 3, only while the app is in use.</li>
+      </ul>
+      <p>No other system permission is requested.</p>
+    </section>
+    <section>
+      <h2>9. Communication security</h2>
+      <p>All network communication (map, search, Drive sync) uses <strong>HTTPS</strong>.</p>
+    </section>
+    <section>
+      <h2>10. Sharing data with third parties</h2>
+      <p>We do not sell, rent or share your data. Only Google services (<strong>Maps</strong>, <strong>Places</strong>, <strong>Sign-In</strong> and <strong>Drive</strong>) process data, under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+    </section>
+    <section>
+      <h2>11. Your rights (GDPR)</h2>
+      <p>We hold no data about you: your data is on your device and, if you enabled the sync, in your own Google account. You can access, export and delete it from the app at any time (sections 2, 5 and 6). For data held by Google, use <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">Google's privacy controls</a>. For any request, write to <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a>.</p>
+    </section>
+    <section>
+      <h2>12. Data retention</h2>
+      <p>Data stays on your device until you delete it or uninstall the app. The Drive file stays in your Google account until you delete it or disconnect with deletion.</p>
+    </section>
+    <section>
+      <h2>13. Age</h2>
+      <p>Lieudit is intended for users aged <strong>18 and over</strong>. We do not knowingly collect personal data from minors.</p>
+    </section>
+    <section>
+      <h2>14. Changes to this policy</h2>
+      <p>We may update this policy. In case of a substantial change, the "last updated" date at the top of this page will be revised.</p>
+    </section>
+    <section>
+      <h2>15. Contact</h2>
+      <p>For any question about this policy: <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>&copy; 2026 Lieudit &mdash; All rights reserved</footer>
+</div>
+
+<div id="fr">
+  <header>
+    <h1>Politique de confidentialité</h1>
+    <p>Application Lieudit &mdash; dernière mise à jour : 26 octobre 2026</p>
+    <div class="lang-switch">
+      <span class="current">Français</span>
+      <a href="#en">English</a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>1. Introduction</h2>
+      <p>Lieudit est un carnet de lieux personnel pour Android publié par un développeur indépendant (ci-après « nous » ou « l'éditeur »). Cette politique décrit les données utilisées, leur usage et vos droits. Lieudit s'adresse aux utilisateurs de 18 ans et plus.</p>
+      <p>Contact : <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a></p>
+    </section>
+    <section>
+      <h2>2. Données stockées localement sur votre appareil</h2>
+      <p>Lieudit conserve vos données <strong>sur votre appareil</strong>. Elles ne sont pas envoyées à nos serveurs (la synchronisation facultative avec Google Drive est décrite à la section 5). Elles comprennent :</p>
+      <ul>
+        <li>Vos lieux : nom, adresse, coordonnées, statut, note, icône, notes personnelles et lien vers la fiche Google Maps</li>
+        <li>Vos tags et leurs couleurs</li>
+        <li>Vos réglages (style de carte, taille des pins, tris, filtres)</li>
+      </ul>
+      <p>« Supprimer toutes les données » dans les Réglages les efface définitivement. Désinstaller l'application les efface aussi. La base de lieux est exclue de la sauvegarde cloud automatique d'Android et du transfert d'appareil à appareil ; seuls certains réglages peuvent y figurer.</p>
+    </section>
+    <section>
+      <h2>3. Localisation</h2>
+      <p>Si vous l'autorisez, Lieudit utilise votre <strong>position approximative et précise</strong>, <strong>uniquement lorsque l'application est utilisée</strong>, pour afficher votre position sur la carte, trier les lieux par distance et calculer des itinéraires. Votre position est traitée sur l'appareil et n'est jamais envoyée à nos serveurs ni conservée par nous. Refuser l'autorisation n'empêche pas l'application de fonctionner. La carte et les itinéraires sont gérés par Google Maps (section 4).</p>
+    </section>
+    <section>
+      <h2>4. Google Maps et Google Places</h2>
+      <p>La carte utilise le <strong>SDK Google Maps</strong> et la recherche de lieux utilise <strong>Google Places</strong>. Pour afficher la carte et répondre à une recherche, Google reçoit les données techniques de la requête (adresse IP, informations sur l'appareil et l'application, texte saisi ou zone affichée). Les lieux ajoutés depuis une recherche conservent les identifiants et informations renvoyés par Google. Ces données sont traitées par Google selon sa <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité</a>. Ouvrir un lieu ou un itinéraire lance Google Maps, qui a sa propre politique.</p>
+    </section>
+    <section>
+      <h2>5. Synchronisation Google Drive (facultative)</h2>
+      <p>Si vous l'activez, Lieudit vous connecte avec votre compte Google (<strong>Google Identity Services</strong>) et enregistre un fichier de sauvegarde dans le <strong>dossier caché des données d'application</strong> de votre Google Drive (autorisation <code>drive.appdata</code> uniquement). Le fichier contient vos lieux, notes, évaluations et tags. Il est conservé par Google dans votre propre compte, n'est pas visible dans votre Drive et nous est inaccessible. Lieudit ne peut lire aucun autre fichier de votre Drive. Vous pouvez vous déconnecter à tout moment ; « Sur cet appareil et dans Drive » dans les Réglages supprime aussi le fichier de Drive. Vous pouvez aussi le gérer depuis votre <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">compte Google</a>.</p>
+    </section>
+    <section>
+      <h2>6. Import et export</h2>
+      <p>L'import (Mapstr, Google Takeout, sauvegarde JSON) et l'export se font via des fichiers que vous choisissez, sur votre appareil. Lieudit ne lit que le fichier que vous sélectionnez, et le fichier exporté est enregistré où vous le décidez. Une fois exporté, sa protection relève de vous.</p>
+    </section>
+    <section>
+      <h2>7. Données que nous ne collectons pas</h2>
+      <p>Lieudit <strong>ne contient aucune publicité, aucun achat intégré, aucune mesure d'audience, aucun service de rapport de plantage ni aucun traceur</strong>. Il n'a pas de compte utilisateur propre et ne collecte ni votre nom, ni votre adresse e-mail, ni vos contacts, photos ou moyens de paiement. Les seules données pouvant quitter votre appareil sont décrites aux sections 3 à 5, et vont à Google, pas à nous.</p>
+    </section>
+    <section>
+      <h2>8. Autorisations Android utilisées</h2>
+      <ul>
+        <li><strong>INTERNET</strong> : carte, recherche de lieux et synchronisation Drive facultative. Les lieux enregistrés se consultent hors ligne.</li>
+        <li><strong>ACCESS_COARSE_LOCATION</strong> et <strong>ACCESS_FINE_LOCATION</strong> : voir la section 3, uniquement lorsque l'application est utilisée.</li>
+      </ul>
+      <p>Aucune autre autorisation système n'est demandée.</p>
+    </section>
+    <section>
+      <h2>9. Sécurité des communications</h2>
+      <p>Toutes les communications réseau (carte, recherche, synchronisation Drive) passent par <strong>HTTPS</strong>.</p>
+    </section>
+    <section>
+      <h2>10. Partage avec des tiers</h2>
+      <p>Nous ne vendons, ne louons ni ne partageons vos données. Seuls les services Google (<strong>Maps</strong>, <strong>Places</strong>, <strong>Connexion</strong> et <strong>Drive</strong>) traitent des données, selon la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité de Google</a>.</p>
+    </section>
+    <section>
+      <h2>11. Vos droits (RGPD)</h2>
+      <p>Nous ne détenons aucune donnée vous concernant : vos données sont sur votre appareil et, si vous avez activé la synchronisation, dans votre propre compte Google. Vous pouvez y accéder, les exporter et les supprimer depuis l'application à tout moment (sections 2, 5 et 6). Pour les données détenues par Google, utilisez les <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">contrôles de confidentialité de Google</a>. Pour toute demande, écrivez à <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a>.</p>
+    </section>
+    <section>
+      <h2>12. Conservation des données</h2>
+      <p>Les données restent sur votre appareil jusqu'à ce que vous les supprimiez ou désinstalliez l'application. Le fichier Drive reste dans votre compte Google jusqu'à sa suppression ou à la déconnexion avec suppression.</p>
+    </section>
+    <section>
+      <h2>13. Âge</h2>
+      <p>Lieudit s'adresse aux utilisateurs de <strong>18 ans et plus</strong>. Nous ne collectons pas sciemment de données personnelles de mineurs.</p>
+    </section>
+    <section>
+      <h2>14. Modifications de cette politique</h2>
+      <p>Nous pouvons mettre à jour cette politique. En cas de changement important, la date de « dernière mise à jour » en haut de cette page sera modifiée.</p>
+    </section>
+    <section>
+      <h2>15. Contact</h2>
+      <p>Pour toute question sur cette politique : <a href="mailto:mfodevhub@gmail.com">mfodevhub@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>&copy; 2026 Lieudit &mdash; Tous droits réservés</footer>
+</div>
+
+</body>
+</html>
